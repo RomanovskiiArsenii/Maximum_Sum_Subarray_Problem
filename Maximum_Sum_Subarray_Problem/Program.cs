@@ -10,12 +10,14 @@
     {
         if (arr == null || !arr.Any()) return 0;
 
-        int maxEndingHere = arr[0];
+        int maxEndingHere = arr[0]; 
         int maxSoFar = arr[0];
 
         for (int i = 1; i < arr.Length; i++)
         {
+            //maxEndingHere: The maximum sum of a subarray ending at the current position
             maxEndingHere = Math.Max(arr[i], maxEndingHere + arr[i]);
+            //maxSoFar: The maximum sum of a subarray among all positions up to the current position.
             maxSoFar = Math.Max(maxSoFar, maxEndingHere);
         }
 
