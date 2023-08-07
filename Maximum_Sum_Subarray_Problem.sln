@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum_Sum_Subarray_Problem", "Maximum_Sum_Subarray_Problem\Maximum_Sum_Subarray_Problem.csproj", "{D2D9A56D-0956-47DF-BEFD-1423B5DB3FFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2D9A56D-0956-47DF-BEFD-1423B5DB3FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D9A56D-0956-47DF-BEFD-1423B5DB3FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D9A56D-0956-47DF-BEFD-1423B5DB3FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D9A56D-0956-47DF-BEFD-1423B5DB3FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C5E01A3-695D-4F3E-8838-C0149F1BC098}
+	EndGlobalSection
+EndGlobal
